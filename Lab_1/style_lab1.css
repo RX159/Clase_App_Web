@@ -1,0 +1,175 @@
+body {
+	font-family:Oswald;
+	font-size: 13px;
+	background-color: #E8E8E8;
+
+}
+
+#Arriba{
+	background-color: #0093FF;
+	height: 35%;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 0%;
+	transform: translate(-50%, -50%);
+}
+
+#Abajo{
+	background-color: #0093FF;
+	height: 5%;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 125%;
+	transform: translate(-50%, -50%);
+}
+
+section{
+	height: 450px;
+	width: 550px;
+	float:left;
+
+	background-color: #FFFFFF;
+	box-shadow: 10px 10px #AAD1EE;
+}
+
+h2{
+	text-align: center;
+	color: #0093FF;
+}
+
+h3{
+	text-align: center;
+		color: #0093FF;
+	text-decoration: underline;
+}
+
+p{
+	font-family:Oswald;
+	font-size: 17px;
+	text-align: center;
+}
+
+ul{
+	font-family:Oswald;
+	font-size: 17px;
+}
+
+#FotoMia{
+	/*Width : 2411*/
+	/*Height: 1970*/
+	width: 241.1px;
+	height:197px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 13%;
+	transform: translate(-50%, -50%);
+
+}
+
+#MiNomnbre{
+
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	transform: translate(-50%, -50%);
+}
+
+#MiCel{
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, -50%);
+}
+
+#MiMail{
+	position: absolute;
+	left: 50%;
+	top: 35%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+/*La parte de arriba ^*/
+
+/*La parte de abajo */
+
+#Aptitudes{
+	position: absolute;
+  left: 25%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+#Experiences{
+	position: absolute;
+	left: 75%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+
+}
+
+#Education{
+	position: absolute;
+	left: 25%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+
+}
+
+#Achievements{
+	position: absolute;
+	left: 75%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+	border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.5;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+	background: #0093FF;
+  color: white;
+	position: absolute;
+	left: 45%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+}
+
+/* Twitter */
+.fa-linkedin {
+
+	background: #0093FF;
+  color: white;
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+}
+
+.fa-github {
+
+	background: #0093FF;
+  color: white;
+	position: absolute;
+	left: 55%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+}
